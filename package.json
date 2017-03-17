@@ -9,7 +9,7 @@
     "vue2"
   ],
   "scripts": {
-    "build": "webpack",
+    "build": "webpack && gulp cpAndroid",
     "dev": "webpack --watch",
     "serve": "serve -p 8080",
     "debug": "weex-devtool"
@@ -33,6 +33,7 @@
     "vue-template-compiler": "^2.1.10",
     "webpack": "^2.2.1",
     "weex-loader": "^0.4.4",
-    "css-loader":""
+    "css-loader":"",
+    "gulp": "^3.9.0"
   }
 }
